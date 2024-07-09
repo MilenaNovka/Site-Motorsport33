@@ -1,0 +1,70 @@
+/* Pista */
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: url('../IMG/pista.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    font-family: Arial, sans-serif; /* Fonte */
+}
+
+/* Carro */
+#carro {
+    position: absolute;
+    width: 120px; /* 1/5 da largura da pista */
+    height: 50px; /* Proporcional à largura */
+    left: 0;
+    top: 20%;
+    background: url('../IMG/carro.png');
+    background-size: cover;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: left;
+}
+
+
+/*Lista do header - 1*/
+nav{
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+}
+
+/* 1 */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+/* 1 */
+nav li {
+    margin: 0 20px;
+}
+
+/* 1 */
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Instruções */
+h1 {
+
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+

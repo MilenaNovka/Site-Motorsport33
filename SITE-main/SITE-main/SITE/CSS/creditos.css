@@ -1,0 +1,60 @@
+/* Fonte */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: left;
+}
+
+/* Lista do header - 1 */
+nav{
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+}
+
+/* 1 */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+/* 1 */
+nav li {
+    margin: 0 20px;
+}
+
+/* 1 */
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Créditos Estilizados - 2 */
+main {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 2 */
+main section {
+    margin-bottom: 20px;
+}
+
+/* 2 */
+main h2 {
+    color: #000000;
+}
+
+/* 2 */
+main p {
+    color: #333;
+}

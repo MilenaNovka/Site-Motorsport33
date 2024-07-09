@@ -1,0 +1,125 @@
+/* Padronização */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+  }
+
+
+/* Cabeçalho */
+header {
+  background-color: #000000;
+  color: white;
+  text-align: left;
+}
+
+/*Lista do header - 1*/
+nav{
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+}
+
+/* 1 */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+}
+
+/* 1 */
+nav li {
+  margin: 0 20px;
+}
+
+/* 1 */
+nav a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+/* Banners - 1 */
+.container {
+  position: relative;
+  width: 268px;
+  height: 450px;
+  display: inline-flex;
+}
+
+  
+/* 1 */
+.image {
+  width: 100%;
+  height: auto;
+}
+  
+/* 1 */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: black;
+}
+  
+/* 1 */
+.container:hover .overlay {
+  opacity: .80;
+}
+  
+/* 1 */
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+  
+/* Copyright */
+footer {
+  margin-top: auto;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 99%
+}
+
+/* Troca de imagens - 2*/
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* 2 */
+.active {
+  background-color: #717171;
+}
+
+/* 2 */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* 2 */
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+

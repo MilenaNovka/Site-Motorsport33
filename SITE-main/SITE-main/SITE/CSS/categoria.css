@@ -1,0 +1,89 @@
+/* Fonte */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: left;
+}
+
+/*Lista do header - 1*/
+nav{
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+}
+
+/* 1 */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+/* 1 */
+nav li {
+    margin: 0 20px;
+}
+
+/* 1 */
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Titulo */
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Padronização de conteudos */
+.conteudo {
+    width: 60%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+/* Subtitulo */
+h2 {
+    color: #333;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+/* Texto */
+p {
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Imagem - 3*/
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 3 */
+.image-container img {
+    width: 48%; /* Ajuste conforme necessário para dar espaço para ambas as imagens */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Copyright */
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 99%
+  }
